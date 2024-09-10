@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 800px 200px;
+    grid-template-rows: 1fr;
+    align-items: baseline;
+    margin: 40px auto;
+}
+
+header h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+header a {
+    color: black;
+}
+
+header input {
+    height: 30px;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 800px 400px;
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+}
+
+#box1 {
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.border{
+    border: 2px solid gray;
+}
+
+.list{
+    padding-left: 3em;
+}
+
+.btn{
+    margin: 2em;
+}
+
+#btn1, #btn2{
+    border-radius: 1em;
+    padding: 0.6em;
+}
+
+#btn1{
+    color: blue;
+    border-color: blue;
+}
+
+#box2{
+    background-color: lightgray;
+}
+
+#box2 h2{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#box2 p{
+    line-height: 1.6em;
+    margin-left: .5em ;
+}
+
+#box3 h2{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#box3 ul{
+    list-style: none;
+    margin-top: .5em;
+    margin-left: .5em;
+    line-height: 1.5em;
+}
+
+#box4 h2{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#box4 ul{
+    list-style: none;
+    margin-top: .5em;
+    margin-left: .5em;
+    line-height: 1.5em;
+}
